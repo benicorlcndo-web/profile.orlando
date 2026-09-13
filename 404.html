@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Halaman tidak ditemukan — Benico Orlando, Drafter DPIB." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#1e1e2e" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231e1e2e'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='32' font-weight='bold' text-anchor='middle' fill='%23cba6f7'%3EO.%3C/text%3E%3C/svg%3E" />
+    <title>404 — Halaman Tidak Ditemukan | Benico Orlando</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati ke konten</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <nav class="navbar" aria-label="Navigasi utama">
+      <a href="index.html" class="nav-brand">Orlando<span class="nav-dot">.</span></a>
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="nav-menu">
+        <a href="index.html#beranda">Beranda</a>
+        <a href="index.html#tentang">Tentang</a>
+        <a href="index.html#skill">Keahlian</a>
+        <a href="index.html#pengalaman">Hasil Kerja</a>
+        <a href="index.html#kontak">Kontak</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <div class="error-page">
+        <div class="error-code">404</div>
+        <h1>Halaman tidak ditemukan</h1>
+        <p>Halaman yang kamu cari sudah dipindahkan atau tidak tersedia.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a href="index.html" class="hero-btn">
+            <i class="fa-solid fa-house"></i>
+            Kembali ke beranda
+          </a>
+          <a href="#pengalaman" class="hero-btn">
+            <i class="fa-solid fa-images"></i>
+            Lihat hasil kerja
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">Benico Orlando<span class="loading-dot">.</span></div>
+      <p class="footer-teks">Dibuat dengan HTML, CSS &amp; JavaScript</p>
+      <p class="footer-copy">&copy; <span id="tahun">2026</span> Benico Orlando. All rights reserved.</p>
+    </footer>
+
+    <div class="music-player" id="musicPlayer">
+      <audio id="audioTrack" src="Breathe.mp3" preload="metadata"></audio>
+
+      <button class="music-top" id="musicCollapsed" type="button" aria-expanded="false" aria-controls="musicExpanded" aria-label="Buka pemutar lagu">
+        <img id="musicCover" src="breathe.logo.jpg" alt="Sampul lagu" class="music-cover" loading="lazy" decoding="async" />
+        <span class="music-info">
+          <span class="music-title" id="musicTitle">Breathe</span>
+          <span class="music-artist" id="musicArtist">Olly Alexander</span>
+        </span>
+        <i class="fa-solid fa-chevron-down music-toggle" id="musicToggle"></i>
+      </button>
+
+      <div class="music-expanded" id="musicExpanded">
+        <div class="music-progress">
+          <span id="waktuSekarang">0:00</span>
+          <div class="music-bar" id="musicBar" role="slider" aria-label="Posisi lagu" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+            <div class="music-bar-fill" id="musicBarFill"></div>
+          </div>
+          <span id="waktuTotal">0:00</span>
+        </div>
+        <div class="music-controls">
+          <button class="music-ctrl-btn" id="musicPrevBtn" type="button" aria-label="Lagu sebelumnya"><i class="fa-solid fa-backward-step"></i></button>
+          <button class="music-play-btn" id="musicPlayBtn" type="button" aria-label="Putar lagu"><i class="fa-solid fa-play"></i></button>
+          <button class="music-ctrl-btn" id="musicNextBtn" type="button" aria-label="Lagu selanjutnya"><i class="fa-solid fa-forward-step"></i></button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

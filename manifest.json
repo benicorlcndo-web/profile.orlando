@@ -1,0 +1,30 @@
+{
+  "name": "Benico Orlando — Drafter DPIB",
+  "short_name": "Orlando DPIB",
+  "description": "Portfolio Benico Orlando Saputra Khotama — Drafter DPIB, gambar 2D AutoCAD, denah arsitektur, detail furniture.",
+  "start_url": "index.html",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#1e1e2e",
+  "theme_color": "#1e1e2e",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%231e1e2e'/%3E%3Ctext x='96' y='126' font-family='Arial' font-size='96' font-weight='bold' text-anchor='middle' fill='%23cba6f7'%3EO.%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
